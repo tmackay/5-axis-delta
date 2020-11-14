@@ -23,8 +23,8 @@ ball_relief_hole_d = 5;
 
 // Bearing diameter, length, extra diameter, total diameter, clamp thickness, and clamp height
 bearing_d = 15;
-bearing_l = 24;
-bearing_extra = 0.2;
+bearing_l = 15.3;
+bearing_extra = 0.2*0;
 bearing_td = bearing_d+bearing_extra;
 bearing_clamp_thick = 2;
 bearing_clamp_h = 21;
@@ -35,7 +35,7 @@ clamp_screw_block_d = 12;
 clamp_screw_hole_d = 3.6;
 
 // Carriage base thickness, front y thickness, and front corner sphere radius
-carriage_base_h = 3;
+carriage_base_h = 3*0;
 carriage_front_offset = 3;
 carriage_corner_r = 3;
 
