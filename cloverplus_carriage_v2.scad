@@ -180,6 +180,11 @@ module carriage()
       translate([i,-(bearing_td)*0.5-carriage_front_offset, carriage_h])rotate([180+45,0,0])
         translate([0,ball_recess_big_d/2,0])
           sphere(d=ball_recess_small_d);
+    // Tension cable
+    translate([0,-(bearing_td)*0.5-carriage_front_offset, carriage_h])rotate([180+45,0,0])
+        translate([0,ball_recess_big_d/2,-1])
+          cylinder(d=3,h=2*carriage_h);
+    
     /*for(i = [-ball_spacing*0.5, ball_spacing*0.5])
       translate([i,
                  ball_y_offset, 
