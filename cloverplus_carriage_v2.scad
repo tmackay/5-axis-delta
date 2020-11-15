@@ -158,8 +158,7 @@ module carriage()
       }*/
 
       // Belt block
-      translate([belt_center_x_off, bearing_td*0.5+bearing_clamp_thick+belt_block_depth*0.5-0.05, 
-                carriage_h-belt_block_h*0.5])
+      translate([belt_center_x_off, bearing_td*0.5+bearing_clamp_thick+belt_block_depth*0.5-0.05, belt_block_h*0.5])
         cube([belt_block_w, belt_block_depth, belt_block_h], center=true);
       
 
@@ -213,7 +212,7 @@ module carriage()
     }*/
 
     // Belt clamp recess
-    translate([belt_center_x_off-belt_recess*0.5, belt_edge_y_off, carriage_h-belt_block_h])
+    translate([belt_center_x_off-belt_recess*0.5, belt_edge_y_off, 0])
       for(i = [0:num_teeth])
       {
         translate([0,0,i*belt_tooth_w*2])
