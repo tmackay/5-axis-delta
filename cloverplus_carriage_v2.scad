@@ -44,8 +44,8 @@ ball_mount_front_thick = 4;
 ball_mount_front_corner_radius = 3;
 ball_mount_back_thick = 4;
 ball_mount_length = 16;
-ball_recess_big_d = 10;
-ball_recess_small_d = 5;
+ball_recess_big_d = 18;
+ball_recess_small_d = 14;
 ball_recess_depth = 4;
 
 // Belt width, belt edge y offset from rod center, belt recess center x offset from carriage center
