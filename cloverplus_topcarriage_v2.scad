@@ -27,7 +27,7 @@ bearing_l = 15.3;
 bearing_extra = 0.2*0;
 bearing_td = bearing_d+bearing_extra;
 bearing_clamp_thick = 2;
-bearing_clamp_h = 21;
+bearing_clamp_h = bearing_l;
 
 // Clamp screw block (actually a cylinder) thickness & diamter, screw hole diameter
 clamp_screw_block_thick = 3;
@@ -56,7 +56,7 @@ belt_center_x_off = -5;
 belt_recess = 0.8;
 belt_tooth_recess = 0.5;
 belt_tooth_w = 1;
-num_teeth = 8;
+num_teeth = 7;
 // Calculated belt clamp block height
 belt_block_h = num_teeth*belt_tooth_w*2+1;
 // Belt clamp block width
@@ -180,7 +180,7 @@ module carriage()
         translate([0,ball_recess_big_d/2,0])
           sphere(d=ball_recess_small_d);
     // Tension cable
-    translate([0,-(bearing_td)*0.5-carriage_front_offset, carriage_h])rotate([180+45,0,0])
+    translate([0,-(bearing_td)*0.5-carriage_front_offset, carriage_h])rotate([180+30,0,0])
         translate([0,ball_spacing?ball_recess_big_d/2:-1.5,-1])
           cylinder(d=3,h=2*carriage_h);
     
