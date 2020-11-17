@@ -50,7 +50,7 @@ ball_recess_depth = 4;
 
 // Belt width, belt edge y offset from rod center, belt recess center x offset from carriage center
 belt_w = 6.5;
-belt_edge_y_off = 14.5;
+belt_edge_y_off = 14.5+6.5+1;
 belt_center_x_off = -5;
 // Belt thickness (without teeth), additional tooth thickness, tooth width (z size), number of teeth
 belt_recess = 0.8;
