@@ -36,7 +36,7 @@ clamp_screw_hole_d = 3.6;
 
 // Carriage base thickness, front y thickness, and front corner sphere radius
 carriage_base_h = 3*0;
-carriage_front_offset = 3;
+carriage_front_offset = -3.5;
 carriage_corner_r = 3;
 
 // Ball mount variables
@@ -139,7 +139,7 @@ module carriage()
           for(i = [-ball_spacing*0.5, ball_spacing*0.5])
             translate([i,-(bearing_td)*0.5-carriage_front_offset, carriage_h*0.5])rotate([180+45,0,0])
               translate([0,ball_recess_big_d/2,0])
-                cylinder(d=ball_recess_big_d);
+                cylinder(d=ball_recess_big_d,h=carriage_h*sqrt(2)-ball_recess_big_d);
         }
 
       // Ball mount
@@ -179,6 +179,11 @@ module carriage()
       translate([i,-(bearing_td)*0.5-carriage_front_offset, carriage_h])rotate([180+45,0,0])
         translate([0,ball_recess_big_d/2,0])
           sphere(d=ball_recess_small_d);
+    for(i = [-ball_spacing*0.5, ball_spacing*0.5])
+      translate([i,-bearing_td*0.5-carriage_front_offset, carriage_h])rotate([45,0,0])
+        translate([0,-ball_recess_big_d/2,0])
+          cylinder(d1=ball_recess_big_d,d2=ball_recess_big_d*2,h=ball_recess_big_d/2);
+
     // Tension cable
     translate([0,-(bearing_td)*0.5-carriage_front_offset, carriage_h])rotate([180+30,0,0])
         translate([0,ball_spacing?ball_recess_big_d/2:-1.5,-1])
