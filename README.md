@@ -12,3 +12,5 @@ This work will possibly include custom kinematics for the RepRapFirmware or kine
 Freedom of movement of the axis will be quite limited in comparison to conventional 5-axis machines and primarily aims to allow printing overhangs of 90 degrees by tilting the nozzle up to 45 degrees from vertical. Improved top surface strength and finish might also be achieved by following surface contours.
 
 The goals of this project are to demonstrate that 5-axis printers are viable for the low budget hobbyist and hopefully spur interest in further developing slicing techniques to suit.
+
+![frame](https://raw.githubusercontent.com/tmackay/5-axis-delta/main/frame.jpg)
