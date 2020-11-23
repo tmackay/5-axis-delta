@@ -14,3 +14,6 @@ Freedom of movement of the axis will be quite limited in comparison to conventio
 The goals of this project are to demonstrate that 5-axis printers are viable for the low budget hobbyist and hopefully spur interest in further developing slicing techniques to suit.
 
 ![frame](https://raw.githubusercontent.com/tmackay/5-axis-delta/main/frame.jpg)
+
+For the hotend I am leaning towards something akin to the Thermoplast 2, press-fit into a spherical bearing
+![Thermoplast Extruder 2.0](https://reprap.org/mediawiki/images/thumb/a/ad/ThermoplastExtruder_2_0-wound-heater.jpg/300px-ThermoplastExtruder_2_0-wound-heater.jpg)
