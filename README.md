@@ -15,7 +15,7 @@ The goals of this project are to demonstrate that 5-axis printers are viable for
 
 ![frame](https://raw.githubusercontent.com/tmackay/5-axis-delta/main/frame.jpg)
 
-For the hotend I am leaning towards something akin to the Thermoplast 2:
+For the hotend I am leaning towards something akin to the [Thermoplast Extruder](https://reprap.org/wiki/Darwin/Thermoplast_Extruder):
 
 ![Thermoplast Extruder 2.0](https://reprap.org/mediawiki/images/thumb/a/ad/ThermoplastExtruder_2_0-wound-heater.jpg/300px-ThermoplastExtruder_2_0-wound-heater.jpg)
 
