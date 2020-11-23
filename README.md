@@ -15,5 +15,8 @@ The goals of this project are to demonstrate that 5-axis printers are viable for
 
 ![frame](https://raw.githubusercontent.com/tmackay/5-axis-delta/main/frame.jpg)
 
-For the hotend I am leaning towards something akin to the Thermoplast 2, press-fit into a spherical bearing
+For the hotend I am leaning towards something akin to the Thermoplast 2:
 ![Thermoplast Extruder 2.0](https://reprap.org/mediawiki/images/thumb/a/ad/ThermoplastExtruder_2_0-wound-heater.jpg/300px-ThermoplastExtruder_2_0-wound-heater.jpg)
+
+Press-fit into a spherical bearing with a suitable ball terminated control arm:
+![Spherical Bearing](https://media.rs-online.com/t_large/F4884903-01.jpg)
